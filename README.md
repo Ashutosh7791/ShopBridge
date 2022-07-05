@@ -1,6 +1,6 @@
 # ShopBridge
 
-I have upload Solution of ShopBridgeApp and ShopBridgeAPI Project and Pulish folder as well.
+I have upload Solution of ShopBridgeApp and ShopBridgeAPI Project and Publish folder as well.
 
 FolderName is "PublishCode" where i have upload Publish API and APP project.
 
