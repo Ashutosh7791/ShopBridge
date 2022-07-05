@@ -21,7 +21,6 @@ namespace ShopBridgeApp.Repository
             ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
             var httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri("http://localhost:62704/api/products/");
-            //httpClient.BaseAddress = new Uri("http://localhost:1256/api/products/");
             httpClient.Timeout = TimeSpan.FromMinutes(10);
             return httpClient;
         }
