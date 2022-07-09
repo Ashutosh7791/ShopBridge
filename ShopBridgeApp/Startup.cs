@@ -21,13 +21,8 @@ namespace ShopBridgeApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddControllersWithViews();
-            //services.AddControllers().AddNewtonsoftJson(options =>
-            //{
-            //    // Use the default property (Pascal) casing
-            //    options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-            //});
-            services.AddMvc();
+            //services.AddMvc();
+            services.AddControllersWithViews();
             services.AddControllers().AddNewtonsoftJson(options =>
             {
                 // Use the default property (Pascal) casing
