@@ -48,12 +48,12 @@ namespace ShopBridgeApp
             app.UseRouting();
 
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers(); //Attribute Routing
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Product}/{action=ProductList}/{id?}");
+                name: "default",
+                pattern: "{controller=Product}/{action=ProductList}/{id?}");
             });
         }
     }
